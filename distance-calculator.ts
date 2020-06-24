@@ -51,5 +51,3 @@ const heidelbergGeo = {
     latitude: 49.40768,
     longitude: 8.69079
 }
-
-DistanceCalculator.showDemo()
