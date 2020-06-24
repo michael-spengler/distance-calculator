@@ -1,14 +1,13 @@
 # Distance Calculator
 
-Enjoy Calculating :)  
-
-
 ## Command Line Example
 ```deno run https://raw.githubusercontent.com/michael-spengler/distance-calculator/master/test-it.ts```
 
 ## Code Example
 
-```import { DistanceCalculator } from "https://raw.githubusercontent.com/michael-spengler/distance-calculator/master/distance-calculator.ts"
+```
+
+import { DistanceCalculator } from "https://raw.githubusercontent.com/michael-spengler/distance-calculator/master/distance-calculator.ts"
 
 const mannheimGeo = {
     latitude: 49.4891,
@@ -31,4 +30,6 @@ const distanceInLightYears =
 
 
 console.log(`The distance between Mannheim and Heidelberg is: \n${distanceInKilometers} kilometers \n${distanceInNauticMiles} nautic miles \n${distanceInLightYears} light years`)
+
+
 ```
