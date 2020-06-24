@@ -1,8 +1,8 @@
 # Distance Calculator
 
-Enjoy Calculating :) 
+Enjoy Calculating :)  
 
 
 ## Example
-deno run test-it.ts
+```deno run https://raw.githubusercontent.com/michael-spengler/distance-calculator/master/test-it.ts```
 
