@@ -12,14 +12,6 @@ export class DistanceCalculator {
         return DistanceCalculator.getDistance(latitude1, longitude1, latitude2, longitude2) * 1.609344 * 0.00000000000010570
     }
 
-    public static showDemo() {
-        const distanceInKilometers = DistanceCalculator.getDistanceInKilometers(heidelbergGeo.latitude, heidelbergGeo.longitude, mannheimGeo.latitude, mannheimGeo.longitude)
-        const distanceInNauticMiles = DistanceCalculator.getDistanceInNauticMiles(heidelbergGeo.latitude, heidelbergGeo.longitude, mannheimGeo.latitude, mannheimGeo.longitude)
-        const distanceInLightYears = DistanceCalculator.getDistanceInLightYears(heidelbergGeo.latitude, heidelbergGeo.longitude, mannheimGeo.latitude, mannheimGeo.longitude)
-
-        console.log(`The distance between Mannheim and Heidelberg is: \n${distanceInKilometers} kilometers \n${distanceInNauticMiles} nautic miles \n${distanceInLightYears} light years`)
-    }
-
     private static getDistance(latitude1: number, longitude1: number, latitude2: number, longitude2: number) {
         if ((latitude1 === latitude2) && (longitude1 === longitude2)) {
             return 0
@@ -39,15 +31,4 @@ export class DistanceCalculator {
         return distance
 
     }
-
-}
-
-const mannheimGeo = {
-    latitude: 49.4891,
-    longitude: 8.46694
-}
-
-const heidelbergGeo = {
-    latitude: 49.40768,
-    longitude: 8.69079
 }
