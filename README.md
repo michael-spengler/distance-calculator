@@ -1,13 +1,13 @@
 # Distance Calculator
 
 ## Command Line Example
-```deno run https://raw.githubusercontent.com/michael-spengler/distance-calculator/master/test-it.ts```
+```deno run https://deno.land/x/distancecalculator/test-it.ts```
 
 ## Code Example
 
 ```
 
-import { DistanceCalculator } from "https://raw.githubusercontent.com/michael-spengler/distance-calculator/master/distance-calculator.ts"
+import { DistanceCalculator } from "https://deno.land/x/distancecalculator/distance-calculator.ts"
 
 const mannheimGeo = {
     latitude: 49.4891,

@@ -1,4 +1,4 @@
-import { DistanceCalculator } from "https://raw.githubusercontent.com/michael-spengler/distance-calculator/master/distance-calculator.ts"
+import { DistanceCalculator } from "https://deno.land/x/distancecalculator/distance-calculator.ts"
 
 const mannheimGeo = {
     latitude: 49.4891,
