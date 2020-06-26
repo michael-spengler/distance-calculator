@@ -31,7 +31,10 @@ console.log(`The distance between Mannheim and Heidelberg is: \n${distanceInKilo
 
 ```
 
-## Command Line Example
+## Test it via command line
 ```
 deno run --allow-net https://deno.land/x/distancecalculator/test-it.ts
 ```
+
+## Contributions are welcome
+Feel free to create a pull request if you would like to improve things. Especially in the context of interplanetary distance calculations...
