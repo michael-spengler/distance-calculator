@@ -1,9 +1,6 @@
 # Distance Calculator
 
-## Command Line Example
-```deno run https://deno.land/x/distancecalculator/test-it.ts```
-
-## Code Example
+## Usage example for your code
 
 ```
 
@@ -32,4 +29,9 @@ const distanceInLightYears =
 console.log(`The distance between Mannheim and Heidelberg is: \n${distanceInKilometers} kilometers \n${distanceInNauticMiles} nautic miles \n${distanceInLightYears} light years`)
 
 
+```
+
+## Command Line Example
+```
+deno run --allow-net https://deno.land/x/distancecalculator/test-it.ts
 ```
