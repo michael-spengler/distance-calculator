@@ -1,0 +1,11 @@
+{
+  "name": "distance-calculator",
+  "description": "Calculating the distance between two places based on latitude and longitude geocoordinates",
+  "stable": true,
+  "files": [
+    "distance-calculator.ts",
+    "mod.ts",
+    "README.md",
+    "test-it.ts"
+  ]
+}
