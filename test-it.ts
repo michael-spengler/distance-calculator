@@ -1,4 +1,4 @@
-import { DistanceCalculator } from "https://x.nest.land/distance-calculator@1.0.0/mod.ts"
+import { DistanceCalculator } from "https://x.nest.land/distance-calculator@1.1.0/mod.ts"
 
 const mannheimGeo = {
     latitude: 49.4891,

@@ -6,6 +6,7 @@
     "distance-calculator.ts",
     "mod.ts",
     "README.md",
-    "test-it.ts"
+    "test-it.ts",
+    "LICENSE"
   ]
 }

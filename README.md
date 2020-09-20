@@ -6,7 +6,7 @@
 
 ```
 
-import { DistanceCalculator } from "https://x.nest.land/distance-calculator@1.0.0/mod.ts"
+import { DistanceCalculator } from "https://x.nest.land/distance-calculator@1.1.0/mod.ts"
 
 const mannheimGeo = {
     latitude: 49.4891,
@@ -35,7 +35,7 @@ console.log(`The distance between Mannheim and Heidelberg is: \n${distanceInKilo
 
 ## Test it via command line
 ```
-deno run --allow-net https://x.nest.land/distance-calculator@1.0.0/test-it.ts
+deno run --allow-net https://x.nest.land/distance-calculator@1.1.0/test-it.ts
 ```
 
 ## Available on Deno & Nest
