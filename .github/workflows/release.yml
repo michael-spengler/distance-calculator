@@ -1,5 +1,5 @@
 
-# add "create patch release" or "create minor release" or "create major release" or "publish on nest.land" to your commit message to use this
+# add "create patch release" or "create minor release" or "create major release"
 
 name: "release workflow"
 on:
@@ -13,7 +13,7 @@ jobs:
       - name: "setup" # check: https://github.com/actions/virtual-environments/issues/1777
         uses: denolib/setup-deno@v2 
         with:
-         deno-version: v1.x
+         deno-version: v1.4.6
       - name: "check patch"
         if: contains(github.event.head_commit.message, 'create patch release')
         run: deno run --allow-net https://deno.land/x/cicd/create-patch-release.ts ${{ secrets.GITHUB_TOKEN }} ${{ github.repository }}
