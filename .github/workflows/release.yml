@@ -5,6 +5,7 @@ name: "release workflow"
 on:
   push:
     branches:
+      - master
       - main
 jobs:
   release:
