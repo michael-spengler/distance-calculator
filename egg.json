@@ -1,8 +1,10 @@
 {
   "name": "distance-calculator",
   "description": "Module to calculate distances based on latitude & longitude geocoordinates.",
+  "homepage": "https://github.com/michael-spengler/distance-calculator",
   "files": [
     "./**/*.ts",
     "README.md"
-  ]
+  ],
+  "entry": "./mod.ts"
 }
