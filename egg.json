@@ -1,0 +1,8 @@
+{
+  "name": "distance-calculator",
+  "description": "Module to calculate distances based on latitude & longitude geocoordinates.",
+  "files": [
+    "./**/*.ts",
+    "README.md"
+  ]
+}
