@@ -4,7 +4,8 @@
   "homepage": "https://github.com/michael-spengler/distance-calculator",
   "files": [
     "./**/*.ts",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "entry": "./mod.ts"
 }
