@@ -21,6 +21,3 @@ jobs:
       - name: "check nest.land"
         run: | 
            deno run --allow-net --allow-read --allow-run https://deno.land/x/cicd/publish-on-nest.land.ts ${{ secrets.GITHUB_TOKEN }} ${{ secrets.NESTAPIKEY }} ${{ github.repository }} 
-#          deno run -A --unstable https://x.nest.land/eggs@0.3.0/eggs.ts link ${{ secrets.NESTAPIKEY }}
-#          deno run -A --unstable https://x.nest.land/eggs@0.3.0/eggs.ts publish --version v1.1.1 --no-check -Y
-
