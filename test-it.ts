@@ -15,5 +15,3 @@ const distanceInNauticMiles = DistanceCalculator.getDistanceInNauticMiles(heidel
 const distanceInLightYears = DistanceCalculator.getDistanceInLightYears(heidelbergGeo.latitude, heidelbergGeo.longitude, mannheimGeo.latitude, mannheimGeo.longitude)
 
 console.log(`The distance between Mannheim and Heidelberg is: \n${distanceInKilometers} kilometers \n${distanceInNauticMiles} nautic miles \n${distanceInLightYears} light years`)
-
-

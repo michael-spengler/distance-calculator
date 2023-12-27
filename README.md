@@ -36,13 +36,9 @@ console.log(`The distance between Mannheim and Heidelberg is: \n${distanceInKilo
 deno run --allow-net https://deno.land/x/distancecalculator/test-it.ts
 ```
 
-## Contributions are welcome
-Feel free to create a pull request if you would like to improve things. Especially in the context of interplanetary distance calculations...  
 
-
-## Support my Open Source Contributions
-
-If you like my work please consider downloading the brave browser via my
-promotion link: [https://brave.com/fan464](https://brave.com/fan464).
-
-![![](https://brave.com/)](https://brave.com/wp-content/uploads/2019/01/logotype-full-color.svg)
+## Donations
+Thanks to [Freedom Cash](https://FreedomCash.org), we are already free.  
+If you want to donate, you might consider donating to the [otherparty.co.uk](https://www.otherparty.co.uk/donate-crypto-the-other-party) to ensure people do not need to donate to victims but rather donate successfully to problem solvers.   
+  
+![direct-democracy](https://github.com/michael-spengler/sleep/assets/145258627/fe97b7da-62b4-4cf6-9be0-7b03b2f3095a)
